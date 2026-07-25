@@ -75,7 +75,7 @@ page-pulse/
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/TarunaJ2006/page-pulse.git
 cd page-pulse
 ```
 
@@ -220,6 +220,22 @@ Given additional development time, the following improvements could be added:
 - Support asynchronous requests for improved scalability.
 - Add Docker support for easier deployment.
 - Improve frontend accessibility and responsive design.
+
+---
+
+## Live Demo
+
+### Backend (Render)
+
+Home:
+https://page-pulse-21ig.onrender.com/
+
+Swagger UI:
+https://page-pulse-21ig.onrender.com/docs
+
+### Frontend (Vercel)
+
+https://page-pulse-taruna2.vercel.app
 
 ---
 
