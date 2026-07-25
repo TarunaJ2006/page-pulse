@@ -20,7 +20,7 @@ analyzeBtn.addEventListener("click", async () => {
     loading.classList.remove("hidden");
         try {
 
-        const response = await fetch("http://127.0.0.1:8000/audit", {
+        const response = await fetch("https://page-pulse-21ig.onrender.com/audit", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
