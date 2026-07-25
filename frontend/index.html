@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Pulse</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Page Pulse</h1>
+
+    <p class="subtitle">
+        Analyze any webpage in seconds
+    </p>
+
+    <div class="input-section">
+
+        <input
+            type="text"
+            id="urlInput"
+            placeholder="https://example.com">
+
+        <button id="analyzeBtn">
+            Analyze Website
+        </button>
+
+    </div>
+
+    <div id="loading" class="hidden">
+        Analyzing website...
+    </div>
+
+    <div id="errorMessage" class="error hidden"></div>
+
+    <div id="results" class="hidden">
+
+        <h2>Audit Report</h2>
+
+        <div class="result-row">
+            <strong>HTTP Status</strong>
+            <span id="status"></span>
+        </div>
+
+        <div class="result-row">
+            <strong>Response Time</strong>
+            <span id="responseTime"></span>
+        </div>
+
+        <div class="result-row">
+            <strong>Page Title</strong>
+            <span id="title"></span>
+        </div>
+
+        <div class="result-row">
+            <strong>Meta Description</strong>
+            <span id="meta"></span>
+        </div>
+
+        <div class="result-row">
+            <strong>H1 Count</strong>
+            <span id="h1"></span>
+        </div>
+
+        <div class="result-row">
+            <strong>Images Missing ALT</strong>
+            <span id="alt"></span>
+        </div>
+
+        <div class="result-row">
+            <strong>Approximate Word Count</strong>
+            <span id="words"></span>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+
+Built for Digital Heroes Training Task
+
+<br><br>
+
+<a
+href="https://digitalheroesco.com"
+target="_blank">
+digitalheroesco.com
+</a>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
