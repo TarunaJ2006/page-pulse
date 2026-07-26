@@ -251,6 +251,12 @@ This project includes:
 
 ---
 
+## AI Usage
+
+AI tools were used to brainstorm implementation approaches, understand FastAPI concepts, improve documentation, and troubleshoot deployment issues. The project implementation, code integration, testing, debugging, and final design decisions were completed and verified by me.
+
+---
+
 ## Author
 
 Prepared as part of the Digital Heroes Software Development (SDE) Training Task.
